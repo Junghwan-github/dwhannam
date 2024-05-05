@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+.pic_lt > ul { float: left;}
+.pic_lt > ul > li { display: inline-block;  margin: 20px 0 25px 22px;}
+.pic_lt > ul > li > a {display: block;  margin: 10px 0 0 0; font-family: 'Noto Sans KR',sans-serif; color: #111; font-size: 20px; font-weight: 600; }
+.lt_img {border-radius: 20px; overflow: hidden; }
+.lt_img:hover {box-shadow: 0px 5px 10px 0px #0000002d;}
+.pic_lt > ul > li > a > img { scale: 1.1; transition: 0.3s; }
+.pic_lt > ul > li > a > img:hover {scale: 1.2;  transition: 0.3s;}
+.lt_info {display: none;}
+.new_icon { display: none;}
+.sound_only {display: none;}
+
+@media (max-width: 720px) {
+    .pic_lt > ul { float: left; width: 100%;}
+    .pic_lt > ul > li {display: block; width: 100%; margin: 0 0 25px 0; padding: 0; }
+    .lt_img { width: 100%; border-radius: 10px; }
+    .pic_lt > ul > li > a {display: block;  margin: 5px 0 0 0; font-family: 'Noto Sans KR',sans-serif; color: #111; font-size: 16px; font-weight: 400; }
+    .pic_lt > ul > li > a > img { max-width: 100%; scale: 1.1; transition: 0.3s; }
+}

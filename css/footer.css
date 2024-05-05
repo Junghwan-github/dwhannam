@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap');
+
+footer { position: relative; width: 100%; height: 300px; margin-top: 180px; background: #102029; }
+.fct { display: block; width: 1800px; height: 300px; margin: 0 auto;  padding: 0; }
+.fct > div {border-right: 1px solid #585858;}
+.fct > div:last-child { text-align: right; border: 0px; }
+
+.cinfo { position: relative; display: inline-block; margin-top: 50px; width: 590px; height: 200px;   font-family: 'Noto Sans KR',sans-serif; color: #fff; }
+.cinfo2 { position: relative; display: inline-block; margin-top: 50px; width: 490px; height: 200px; margin-right: 100px;  font-family: 'Noto Sans KR',sans-serif; color: #fff; }
+.cinfo > h2 {font-weight: 600; font-size: 22px; }
+.cinfo2 > h2 {font-weight: 600; font-size: 22px; }
+.cinfo2 > p > a {color: #c9c9c9;}
+.cinfo > p { color: #c9c9c9; margin-top: 10px;}
+.cinfo2 > p { color: #c9c9c9; margin-top: 10px;}
+.tele { font-size: 39px; font-weight: 800; }
+.tele > a { color: #ffd900; transition:}
+.tele2 > a {color: #c9c9c9;}
+.cinfo .s-tele {color: #c9c9c9;}
+
+@media (max-width: 720px) {
+    footer {max-width: 100%;  height: auto; overflow: hidden; margin: 50px 0 0 0; padding: 0;  }
+    .fct {width: 100%; height: auto; overflow: hidden;  }
+    .fct > div:last-child {text-align: center;}
+    .cinfo2 {display: none;}
+    .cinfo {display: block; width: 100%; height: auto; overflow: hidden; text-align: center; float: left; margin: 30px 0 30px 0; padding: 0;}
+    .cinfo > h2 {font-size: 20px;}
+    .cinfo > p {font-size: 11px;}
+    .tele > a {font-size: 23px;}
+}
